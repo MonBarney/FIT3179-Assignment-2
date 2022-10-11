@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 600,
+    "title": "Greenhouse Gases by Region",
+    "data": {
+      "url": "https://raw.githubusercontent.com/MonBarney/FIT3179-Assignment-2/main/Data/Greenhouse%20Gas%20by%20Region.csv"
+    },
+    "mark": "area",
+    "params": [
+      {
+        "name": "Region",
+        "select": {
+          "type": "point",
+          "fields": ["Region"]
+        },
+        "bind": "legend"
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "timeUnit": "year",
+        "title": "Year",
+        "axis": {"format": "%Y"}
+      },
+      "y": {
+        "field": "Emissions",
+        "type": "quantitative",
+        "title": "Greenhouse Gases Emissions"
+      },
+      "color":{
+        "field": "Region",
+        "scale": {
+          "scheme": "tableau20"
+        }
+      },
+      "opacity": {
+        "condition": {"param": "Region", "value": 1},
+        "value": 0.5
+        },
+          "tooltip": [
+            {"field": "Region", "type": "nominal", "title": "Country"},
+            {"field": "Emissions", "type": "quantitative", "format": ","}
+          ]
+        }
+      }

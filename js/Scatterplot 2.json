@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 400,
+    "title": "% to Access to Electricity vs Mobile Cellular Subscriptions over the years",
+    "data": {
+      "url": "https://raw.githubusercontent.com/MonBarney/FIT3179-Assignment-2/main/Data/Scatterplot.csv"
+    },
+    "params": [
+      {
+        "name": "Year",
+        "value": 2002,
+        "bind": {
+          "input": "range",
+          "min": 2002,
+          "max": 2019,
+          "step": 1,
+          "name": "Year: "
+        }
+      }
+    ],
+    "transform": [
+      {"filter": "datum.Subscriptions > 0"},
+      {"filter": "datum.Electricity > 0"},
+      {"filter": "datum.Year == Year"}
+    ],
+    "layer": [
+      {
+      "mark": "circle",
+      "encoding": {
+      "x": {
+        "field": "Electricity",
+        "type": "quantitative",
+        "title": "% to Access to Electricity"
+      },
+      "y": {
+        "field": "Subscriptions",
+        "type": "quantitative",
+        "title": "% of Mobile Cellular Subscriptions (per 100 people)"
+      },
+      "color": {
+        "field": "Region",
+        "type": "nominal",
+        "title": "Region"
+      },
+      "size": {
+        "field": "GDP per Capita",
+        "type": "quantitative",
+        "scale": {
+          "type": "threshold",
+          "domain": [500, 5000, 10000, 25000, 50000],
+          "range": [10, 100, 200, 300, 500]
+        }
+      },
+      "opacity": {"value": 0.6},
+          "tooltip": [
+            {"field": "Region", "type": "nominal", "title": "Region"},
+            {"field": "Subscriptions", "type": "quantitative", "format": ","},
+            {"field": "Electricity", "type": "quantitative", "format": ",.2f"},
+            {"field": "GDP per Capita", "type": "quantitative", "format": ",.2f"}
+          ]
+        }
+      }
+    ]
+}
