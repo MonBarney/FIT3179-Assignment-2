@@ -1,66 +1,77 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 400,
-    "title": "% to Access to Electricity vs Mobile Cellular Subscriptions over the years",
-    "data": {
-      "url": "https://raw.githubusercontent.com/MonBarney/FIT3179-Assignment-2/main/Data/Scatterplot.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "title": "% to Access to Electricity vs Mobile Cellular Subscriptions over the years",
+  "data": {
+    "url": "https://raw.githubusercontent.com/MonBarney/FIT3179-Assignment-2/main/Data/Scatterplot.csv"
+  },
+  "params": [
+    {
+      "name": "Year",
+      "value": 2002,
+      "bind": {
+        "input": "range",
+        "min": 2002,
+        "max": 2019,
+        "step": 1,
+        "name": "Year: "
+      }
+    }, 
+    {
+      "name": "Region",
+      "select": {
+        "type": "point",
+        "fields": ["Region"]
     },
-    "params": [
-      {
-        "name": "Year",
-        "value": 2002,
-        "bind": {
-          "input": "range",
-          "min": 2002,
-          "max": 2019,
-          "step": 1,
-          "name": "Year: "
-        }
+    "bind":"legend"
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Subscriptions > 0"},
+    {"filter": "datum.Electricity > 0"},
+    {"filter": "datum.Year == Year"}
+  ],
+  "layer": [
+    {
+    "mark": "circle",
+    "encoding": {
+    "x": {
+      "field": "Electricity",
+      "type": "quantitative",
+      "title": "% to Access to Electricity"
+    },
+    "y": {
+      "field": "Subscriptions",
+      "type": "quantitative",
+      "title": "% of Mobile Cellular Subscriptions (per 100 people)"
+    },
+    "color": {
+      "field": "Region",
+      "scale": {
+        "scheme": "tableau20"
       }
-    ],
-    "transform": [
-      {"filter": "datum.Subscriptions > 0"},
-      {"filter": "datum.Electricity > 0"},
-      {"filter": "datum.Year == Year"}
-    ],
-    "layer": [
-      {
-      "mark": "circle",
-      "encoding": {
-      "x": {
-        "field": "Electricity",
-        "type": "quantitative",
-        "title": "% to Access to Electricity"
-      },
-      "y": {
-        "field": "Subscriptions",
-        "type": "quantitative",
-        "title": "% of Mobile Cellular Subscriptions (per 100 people)"
-      },
-      "color": {
-        "field": "Region",
-        "scale": {
-          "scheme": "tableau20"
-        }
-      },
-      "size": {
-        "field": "GDP per Capita",
-        "type": "quantitative",
-        "scale": {
-          "type": "threshold",
-          "domain": [500, 5000, 10000, 25000, 50000],
-          "range": [10, 100, 200, 300, 500]
-        }
-      },
-      "opacity": {"value": 0.6},
-          "tooltip": [
-            {"field": "Region", "type": "nominal", "title": "Region"},
-            {"field": "Subscriptions", "type": "quantitative", "format": ","},
-            {"field": "Electricity", "type": "quantitative", "format": ",.2f"},
-            {"field": "GDP per Capita", "type": "quantitative", "format": ",.2f"}
-          ]
-        }
+    },
+    "size": {
+      "field": "GDP per Capita",
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [500, 5000, 10000, 25000, 50000],
+        "range": [10, 100, 200, 300, 500]
       }
-    ]
+    },
+    "opacity": {
+      "condition": {"param": "Region", "value": 1},
+      "value": 0.2
+      },
+        "tooltip": [
+          {"field": "Region", "type": "nominal", "title": "Region"},
+          {"field": "Subscriptions", "type": "quantitative", "format": ","},
+          {"field": "Electricity", "type": "quantitative", "format": ",.2f"},
+          {"field": "GDP per Capita", "type": "quantitative", "format": ",.2f"}
+        ]
+      }
+    }
+  ]
 }
