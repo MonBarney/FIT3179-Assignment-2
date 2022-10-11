@@ -1,127 +1,127 @@
-﻿Region,Year,Subscriptions,Electricity
-East Asia & Pacific,2002,20.18,93.20
-East Asia & Pacific,2003,24.56,93.39
-East Asia & Pacific,2004,29.40,94.21
-East Asia & Pacific,2005,33.84,93.84
-East Asia & Pacific,2006,39.22,94.85
-East Asia & Pacific,2007,47.74,94.92
-East Asia & Pacific,2008,56.77,95.35
-East Asia & Pacific,2009,64.59,95.17
-East Asia & Pacific,2010,73.36,95.54
-East Asia & Pacific,2011,82.88,96.14
-East Asia & Pacific,2012,91.22,96.40
-East Asia & Pacific,2013,97.85,96.60
-East Asia & Pacific,2014,102.94,96.73
-East Asia & Pacific,2015,103.63,97.10
-East Asia & Pacific,2016,109.77,97.20
-East Asia & Pacific,2017,115.92,97.85
-East Asia & Pacific,2018,121.90,97.87
-East Asia & Pacific,2019,128.02,98.06
-Europe & Central Asia,2002,47.78,99.96
-Europe & Central Asia,2003,55.26,99.97
-Europe & Central Asia,2004,66.34,99.96
-Europe & Central Asia,2005,81.26,99.95
-Europe & Central Asia,2006,94.83,99.95
-Europe & Central Asia,2007,106.60,99.95
-Europe & Central Asia,2008,115.34,99.96
-Europe & Central Asia,2009,119.73,99.96
-Europe & Central Asia,2010,120.53,99.97
-Europe & Central Asia,2011,120.61,99.97
-Europe & Central Asia,2012,122.71,99.98
-Europe & Central Asia,2013,125.14,99.98
-Europe & Central Asia,2014,124.95,99.98
-Europe & Central Asia,2015,124.37,99.26
-Europe & Central Asia,2016,124.16,99.97
-Europe & Central Asia,2017,124.33,99.99
-Europe & Central Asia,2018,123.65,99.99
-Europe & Central Asia,2019,125.89,99.99
-Latin America & Caribbean,2002,18.98,92.66
-Latin America & Caribbean,2003,23.29,92.75
-Latin America & Caribbean,2004,31.83,93.23
-Latin America & Caribbean,2005,43.29,93.57
-Latin America & Caribbean,2006,54.45,94.28
-Latin America & Caribbean,2007,67.13,94.50
-Latin America & Caribbean,2008,79.90,95.24
-Latin America & Caribbean,2009,88.16,95.38
-Latin America & Caribbean,2010,97.16,95.86
-Latin America & Caribbean,2011,105.81,96.18
-Latin America & Caribbean,2012,110.38,96.56
-Latin America & Caribbean,2013,116.01,96.84
-Latin America & Caribbean,2014,115.57,97.03
-Latin America & Caribbean,2015,111.50,97.28
-Latin America & Caribbean,2016,109.88,97.48
-Latin America & Caribbean,2017,106.48,97.74
-Latin America & Caribbean,2018,104.83,97.80
-Latin America & Caribbean,2019,102.51,98.09
-Middle East & North Africa,2002,10.26,92.65
-Middle East & North Africa,2003,13.31,93.48
-Middle East & North Africa,2004,18.43,93.41
-Middle East & North Africa,2005,28.35,94.04
-Middle East & North Africa,2006,40.59,95.95
-Middle East & North Africa,2007,56.16,94.23
-Middle East & North Africa,2008,68.04,94.81
-Middle East & North Africa,2009,81.77,94.91
-Middle East & North Africa,2010,91.78,95.74
-Middle East & North Africa,2011,98.33,95.80
-Middle East & North Africa,2012,103.32,95.38
-Middle East & North Africa,2013,108.77,97.08
-Middle East & North Africa,2014,109.27,96.07
-Middle East & North Africa,2015,109.59,96.52
-Middle East & North Africa,2016,108.52,96.83
-Middle East & North Africa,2017,107.54,97.69
-Middle East & North Africa,2018,106.00,96.28
-Middle East & North Africa,2019,110.81,97.23
-North America,2002,48.25,100.00
-North America,2003,54.13,100.00
-North America,2004,61.65,100.00
-North America,2005,67.47,100.00
-North America,2006,75.19,100.00
-North America,2007,80.83,100.00
-North America,2008,84.14,100.00
-North America,2009,87.67,100.00
-North America,2010,90.62,100.00
-North America,2011,93.68,100.00
-North America,2012,95.31,100.00
-North America,2013,96.42,100.00
-North America,2014,108.45,100.00
-North America,2015,115.45,100.00
-North America,2016,118.74,100.00
-North America,2017,119.31,100.00
-North America,2018,104.75,100.00
-North America,2019,106.44,100.00
-South Asia,2002,1.16,59.85
-South Asia,2003,2.67,61.49
-South Asia,2004,4.22,61.82
-South Asia,2005,7.70,64.81
-South Asia,2006,14.84,65.86
-South Asia,2007,22.14,68.03
-South Asia,2008,31.62,70.33
-South Asia,2009,43.57,72.36
-South Asia,2010,58.39,73.19
-South Asia,2011,68.23,67.05
-South Asia,2012,67.37,77.49
-South Asia,2013,69.77,78.71
-South Asia,2014,73.60,80.76
-South Asia,2015,76.08,84.61
-South Asia,2016,83.64,86.30
-South Asia,2017,86.70,89.40
-South Asia,2018,87.36,92.71
-South Asia,2019,85.74,94.04
-Sub-Saharan Africa,2002,3.58,27.27
-Sub-Saharan Africa,2003,4.96,29.50
-Sub-Saharan Africa,2004,7.39,29.34
-Sub-Saharan Africa,2005,12.00,29.29
-Sub-Saharan Africa,2006,17.69,30.80
-Sub-Saharan Africa,2007,23.08,32.42
-Sub-Saharan Africa,2008,31.73,32.31
-Sub-Saharan Africa,2009,37.46,32.49
-Sub-Saharan Africa,2010,44.64,33.30
-Sub-Saharan Africa,2011,52.82,35.88
-Sub-Saharan Africa,2012,59.33,36.82
-Sub-Saharan Africa,2013,65.54,37.95
-Sub-Saharan Africa,2014,70.28,38.29
-Sub-Saharan Africa,2015,75.54,39.07
-Sub-Saharan Africa,2016,73.58,43.75
-Sub-Saharan Africa,2017,72.87,43.73
-Sub-Saharan Africa,2018,82.20,46.37
-Sub-Saharan Africa,2019,79.65,47.10
+﻿Region,Year,Subscriptions,Electricity,GDP per Capita
+East Asia & Pacific,2002,20.18,93.2,3796.87
+East Asia & Pacific,2003,24.56,93.39,4141.86
+East Asia & Pacific,2004,29.4,94.21,4610.58
+East Asia & Pacific,2005,33.84,93.84,4882.84
+East Asia & Pacific,2006,39.22,94.85,5137.10
+East Asia & Pacific,2007,47.74,94.92,5699.82
+East Asia & Pacific,2008,56.77,95.35,6525.36
+East Asia & Pacific,2009,64.59,95.17,6669.23
+East Asia & Pacific,2010,73.36,95.54,7731.86
+East Asia & Pacific,2011,82.88,96.14,8903.49
+East Asia & Pacific,2012,91.22,96.4,9450.13
+East Asia & Pacific,2013,97.85,96.6,9482.16
+East Asia & Pacific,2014,102.94,96.73,9707.51
+East Asia & Pacific,2015,103.63,97.1,9599.41
+East Asia & Pacific,2016,109.77,97.2,9867.87
+East Asia & Pacific,2017,115.92,97.85,10466.42
+East Asia & Pacific,2018,121.9,97.87,11324.00
+East Asia & Pacific,2019,128.02,98.06,11494.09
+Europe & Central Asia,2002,47.78,99.96,12887.40
+Europe & Central Asia,2003,55.26,99.97,15628.78
+Europe & Central Asia,2004,66.34,99.96,18159.73
+Europe & Central Asia,2005,81.26,99.95,19260.78
+Europe & Central Asia,2006,94.83,99.95,20795.95
+Europe & Central Asia,2007,106.6,99.95,24217.75
+Europe & Central Asia,2008,115.34,99.96,26535.47
+Europe & Central Asia,2009,119.73,99.96,23247.43
+Europe & Central Asia,2010,120.53,99.97,23680.23
+Europe & Central Asia,2011,120.61,99.97,26191.57
+Europe & Central Asia,2012,122.71,99.98,25132.53
+Europe & Central Asia,2013,125.14,99.98,26147.70
+Europe & Central Asia,2014,124.95,99.98,26388.22
+Europe & Central Asia,2015,124.37,99.26,22624.92
+Europe & Central Asia,2016,124.16,99.97,22455.15
+Europe & Central Asia,2017,124.33,99.99,23704.33
+Europe & Central Asia,2018,123.65,99.99,25297.68
+Europe & Central Asia,2019,125.89,99.99,24914.60
+Latin America & Caribbean,2002,18.98,92.66,3761.02
+Latin America & Caribbean,2003,23.29,92.75,3787.76
+Latin America & Caribbean,2004,31.83,93.23,4308.29
+Latin America & Caribbean,2005,43.29,93.57,5144.02
+Latin America & Caribbean,2006,54.45,94.28,5948.49
+Latin America & Caribbean,2007,67.13,94.5,6925.65
+Latin America & Caribbean,2008,79.9,95.24,7957.76
+Latin America & Caribbean,2009,88.16,95.38,7392.29
+Latin America & Caribbean,2010,97.16,95.86,9063.94
+Latin America & Caribbean,2011,105.81,96.18,10202.19
+Latin America & Caribbean,2012,110.38,96.56,10198.36
+Latin America & Caribbean,2013,116.01,96.84,10338.42
+Latin America & Caribbean,2014,115.57,97.03,10431.71
+Latin America & Caribbean,2015,111.5,97.28,8629.01
+Latin America & Caribbean,2016,109.88,97.48,8350.02
+Latin America & Caribbean,2017,106.48,97.74,9188.58
+Latin America & Caribbean,2018,104.83,97.8,8902.40
+Latin America & Caribbean,2019,102.51,98.09,8699.46
+Middle East & North Africa,2002,10.26,92.65,3163.88
+Middle East & North Africa,2003,13.31,93.48,3442.68
+Middle East & North Africa,2004,18.43,93.41,3988.37
+Middle East & North Africa,2005,28.35,94.04,4704.37
+Middle East & North Africa,2006,40.59,95.95,5399.78
+Middle East & North Africa,2007,56.16,94.23,6243.05
+Middle East & North Africa,2008,68.04,94.81,7617.93
+Middle East & North Africa,2009,81.77,94.91,6734.14
+Middle East & North Africa,2010,91.78,95.74,7703.88
+Middle East & North Africa,2011,98.33,95.8,8518.30
+Middle East & North Africa,2012,103.32,95.38,8992.17
+Middle East & North Africa,2013,108.77,97.08,8666.91
+Middle East & North Africa,2014,109.27,96.07,8540.74
+Middle East & North Africa,2015,109.59,96.52,7375.46
+Middle East & North Africa,2016,108.52,96.83,7307.45
+Middle East & North Africa,2017,107.54,97.69,7469.55
+Middle East & North Africa,2018,106,96.28,7704.42
+Middle East & North Africa,2019,110.81,97.23,7587.36
+North America,2002,48.25,100,36651.83
+North America,2003,54.13,100,38395.22
+North America,2004,61.65,100,40788.09
+North America,2005,67.47,100,43368.25
+North America,2006,75.19,100,45741.03
+North America,2007,80.83,100,47727.48
+North America,2008,84.14,100,48398.10
+North America,2009,87.67,100,46581.28
+North America,2010,90.62,100,48552.94
+North America,2011,93.68,100,50289.02
+North America,2012,95.31,100,51881.17
+North America,2013,96.42,100,53234.15
+North America,2014,108.45,100,54714.47
+North America,2015,115.45,100,55452.42
+North America,2016,118.74,100,56312.43
+North America,2017,119.31,100,58430.20
+North America,2018,104.75,100,61158.56
+North America,2019,106.44,100,63175.74
+South Asia,2002,1.16,59.85,469.71
+South Asia,2003,2.67,61.49,538.71
+South Asia,2004,4.22,61.82,613.95
+South Asia,2005,7.7,64.81,691.69
+South Asia,2006,14.84,65.86,774.86
+South Asia,2007,22.14,68.03,959.31
+South Asia,2008,31.62,70.33,959.46
+South Asia,2009,43.57,72.36,1041.98
+South Asia,2010,58.39,73.19,1257.50
+South Asia,2011,68.23,67.05,1368.92
+South Asia,2012,67.37,77.49,1366.06
+South Asia,2013,69.77,78.71,1383.32
+South Asia,2014,73.6,80.76,1496.01
+South Asia,2015,76.08,84.61,1543.05
+South Asia,2016,83.64,86.3,1696.74
+South Asia,2017,86.7,89.4,1911.33
+South Asia,2018,87.36,92.71,1944.01
+South Asia,2019,85.74,94.04,1987.57
+Sub-Saharan Africa,2002,3.58,27.27,629.46
+Sub-Saharan Africa,2003,4.96,29.5,772.77
+Sub-Saharan Africa,2004,7.39,29.34,935.76
+Sub-Saharan Africa,2005,12,29.29,1082.21
+Sub-Saharan Africa,2006,17.69,30.8,1242.00
+Sub-Saharan Africa,2007,23.08,32.42,1400.86
+Sub-Saharan Africa,2008,31.73,32.31,1548.96
+Sub-Saharan Africa,2009,37.46,32.49,1449.79
+Sub-Saharan Africa,2010,44.64,33.3,1670.55
+Sub-Saharan Africa,2011,52.82,35.88,1830.88
+Sub-Saharan Africa,2012,59.33,36.82,1852.84
+Sub-Saharan Africa,2013,65.54,37.95,1913.74
+Sub-Saharan Africa,2014,70.28,38.29,1928.53
+Sub-Saharan Africa,2015,75.54,39.07,1692.67
+Sub-Saharan Africa,2016,73.58,43.75,1538.24
+Sub-Saharan Africa,2017,72.87,43.73,1622.98
+Sub-Saharan Africa,2018,82.2,46.37,1606.86
+Sub-Saharan Africa,2019,79.65,47.1,1618.92
