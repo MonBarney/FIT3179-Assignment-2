@@ -41,7 +41,10 @@
       "color": {
         "field": "Region",
         "type": "nominal",
-        "title": "Region"
+        "title": "Region",
+        "scale": {
+          "scheme": "tableau20"
+        }
       },
       "size": {
         "field": "GDP per Capita",
