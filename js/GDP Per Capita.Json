@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "GDP per Capita of each country in 2020",
-    "width": 500,
+    "width": 400,
     "height": 400,
     "projection": {"type": "equalEarth"},
     "data": {
