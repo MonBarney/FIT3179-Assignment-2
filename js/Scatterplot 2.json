@@ -40,8 +40,6 @@
       },
       "color": {
         "field": "Region",
-        "type": "nominal",
-        "title": "Region",
         "scale": {
           "scheme": "tableau20"
         }
