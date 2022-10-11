@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 325,
+  "width": 350,
   "height": 400,
   "title": "% to Access to Electricity vs Mobile Cellular Subscriptions over the years",
   "data": {
