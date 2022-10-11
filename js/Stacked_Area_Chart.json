@@ -42,7 +42,7 @@
           "tooltip": [
             {"field": "Region", "type": "nominal", "title": "Country"},
             {"field": "Emissions", "type": "quantitative", "format": ",.2f"},
-            {"field": "Year", "type": "ordinal"}
+            {"field": "Year", "timeUnit": "year"}
 
           ]
         }
