@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 400,
+    "width": 350,
+    "height": 350,
     "title": "Greenhouse Gases by Region",
     "data": {
       "url": "https://raw.githubusercontent.com/MonBarney/FIT3179-Assignment-2/main/Data/Greenhouse%20Gas%20by%20Region.csv"
