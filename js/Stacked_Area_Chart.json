@@ -40,9 +40,9 @@
         "value": 0.5
         },
           "tooltip": [
-            {"field": "Region", "type": "nominal", "title": "Country"},
-            {"field": "Emissions", "type": "quantitative", "format": ",.2f"},
-            {"field": "Year", "type": "temporal","timeUnit": "year"}
+            {"field": "Region", "type": "nominal", "title": "Region"},
+            {"field": "Emissions", "type": "quantitative", "format": ",.2f", "title": "Emissions in kt"},
+            {"field": "Year", "type": "temporal","timeUnit": "year", "title": "Year"}
 
           ]
         }
