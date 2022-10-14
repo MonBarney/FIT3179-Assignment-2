@@ -6,7 +6,7 @@
     "data": {
       "url": "https://raw.githubusercontent.com/MonBarney/FIT3179-Assignment-2/main/Data/Greenhouse%20Gas%20by%20Region.csv"
     },
-    "mark": "area",
+    "mark": "bar",
     "params": [
       {
         "name": "Region",
@@ -27,7 +27,7 @@
       "y": {
         "field": "Emissions",
         "type": "quantitative",
-        "title": "Greenhouse Gases Emissions"
+        "title": "Greenhouse Gases Emissions in kt"
       },
       "color":{
         "field": "Region",

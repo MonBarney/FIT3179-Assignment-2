@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 300,
+  "width": 350,
   "height": 400,
   "title": "% to Access to Electricity vs Mobile Cellular Subscriptions over the years",
   "data": {
@@ -39,12 +39,15 @@
     "x": {
       "field": "Electricity",
       "type": "quantitative",
-      "title": "% to Access to Electricity"
+      "title": "% to Access to Electricity",
+      "scale": {
+        "domain": [0, 120]
+      }
     },
     "y": {
       "field": "Subscriptions",
       "type": "quantitative",
-      "title": "% of Mobile Cellular Subscriptions (per 100 people)"
+      "title": "Mobile Cellular Subscriptions (per 100 people)"
     },
     "color": {
       "field": "Region",
@@ -75,3 +78,4 @@
     }
   ]
 }
+     
