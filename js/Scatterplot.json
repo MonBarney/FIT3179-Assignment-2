@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 450,
+    "width": 460,
     "height": 400,
     "title": "Population vs Greenhouse Gases Emissions over the years",
     "data": {
