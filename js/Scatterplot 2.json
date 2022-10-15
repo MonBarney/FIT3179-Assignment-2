@@ -39,7 +39,7 @@
     "x": {
       "field": "Electricity",
       "type": "quantitative",
-      "title": "% to Access to Electricity",
+      "title": "% Access to Electricity",
       "scale": {
         "domain": [0, 120]
       }
