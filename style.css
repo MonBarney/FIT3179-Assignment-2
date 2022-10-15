@@ -1,8 +1,10 @@
 .body {
     font-family: 'Open Sans', sans-serif;
+    size: 40px;
 }
 
 h1 {
+    font-family: 'Ogg', serif;
     font-weight: 900;
     text-align: center;
 }
@@ -21,6 +23,24 @@ body {
 
 .vis-container {
     width: 100%;
+}
+
+.Sub-Saharan {
+    color: #9d755d;
+}
+
+.East-Asia {
+    color: #4c78a8;
+}
+
+.positive {
+    color: green;
+    font-weight: bold;
+}
+
+.negative {
+    color: red;
+    font-weight: bold;
 }
 
 .description h2,
